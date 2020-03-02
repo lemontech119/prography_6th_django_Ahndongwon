@@ -19,9 +19,9 @@ from rest_framework import routers
 from subject.views import SubjectViewSet
 
 router = routers.DefaultRouter()
-router.register(r'subjects', SubjectViewSet)
+router.register(r'todo', SubjectViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', include(router.urls)),
+    path('subject/', include(router.urls)),
 ]
