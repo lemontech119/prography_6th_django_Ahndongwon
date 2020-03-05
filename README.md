@@ -1,10 +1,20 @@
 ## 프로그라피 6기 장고 사전과제
 
+시작 명령어
+
+``` bash
+$ pip install -r requirement.txt
+
+$ python manage.py runserver
+```
+
+
+
 #### 필수요구사항
 
 >해당 작업은 postman으로 테스트한 결과입니다.
 
-**게시물 조회(Read)**
+게시물 조회(Read)**
 
 - 요청 URL
 
@@ -190,4 +200,9 @@
   }
   ```
 
-  
+
+
+
+#### 선택요구사항
+
+- 서버 배포 : http://34.64.212.113:80/subject/todo/
